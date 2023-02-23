@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Feb 14 21:18:54 2023
+# Process ID: 9044
+# Current directory: C:/Users/Chick/Vivado_Builds/binary_counter/binary_counter.runs/synth_1
+# Command line: vivado.exe -log bcount_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bcount_tb.tcl
+# Log file: C:/Users/Chick/Vivado_Builds/binary_counter/binary_counter.runs/synth_1/bcount_tb.vds
+# Journal file: C:/Users/Chick/Vivado_Builds/binary_counter/binary_counter.runs/synth_1\vivado.jou
+# Running On: OrionsPC, OS: Windows, CPU Frequency: 3394 MHz, CPU Physical cores: 16, Host memory: 68662 MB
+#-----------------------------------------------------------
+source bcount_tb.tcl -notrace

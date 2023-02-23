@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/Chick/Vivado_Builds/uart/uart.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/Chick/Vivado_Builds/uart/uart.srcs/sources_1/new/uart_rx.v,1677034734,verilog,,C:/Users/Chick/Vivado_Builds/uart/uart.srcs/sources_1/new/uart_tx.v,,uart_receiver,,,,,,,,
+C:/Users/Chick/Vivado_Builds/uart/uart.srcs/sources_1/new/uart_tb.v,1677035761,verilog,,,,tb_uart,,,,,,,,
+C:/Users/Chick/Vivado_Builds/uart/uart.srcs/sources_1/new/uart_tx.v,1677034691,verilog,,C:/Users/Chick/Vivado_Builds/uart/uart.srcs/sources_1/new/uart_tb.v,,uart_transmitter,,,,,,,,

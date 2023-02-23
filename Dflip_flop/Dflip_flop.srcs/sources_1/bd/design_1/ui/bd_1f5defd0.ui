@@ -1,0 +1,25 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-387,-233",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x -10 -y 101 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -10 -y 81 -defaultsOSRD
+preplace inst dff_0 -pg 1 -lvl 1 -x 120 -y -40 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 120 -y 91 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 2 -x 400 -y 60 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 0 2 20 161 210
+preplace netloc clk_wiz_locked 1 1 1 220 100n
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 0 3 30 181 NJ 181 570
+preplace netloc clk_100MHz_1 1 0 1 NJ 101
+preplace netloc reset_1 1 0 2 10 171 230J
+levelinfo -pg 1 -10 120 400 590
+pagesize -pg 1 -db -bbox -sgen -140 -120 590 200
+"
+}
+{
+   "da_board_cnt":"3",
+   "da_clkrst_cnt":"1"
+}

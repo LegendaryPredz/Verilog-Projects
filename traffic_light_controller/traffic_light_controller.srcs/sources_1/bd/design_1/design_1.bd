@@ -1,0 +1,155 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD2FE5A300A8C95E5",
+      "device": "xc7a200tfbg676-2",
+      "gen_directory": "../../../../traffic_light_controller.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "traffic_control_0": "",
+      "clk_wiz": ""
+    },
+    "ports": {
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_100MHz",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "traffic_control_0": {
+        "vlnv": "xilinx.com:module_ref:traffic_control:1.0",
+        "xci_name": "design_1_traffic_control_0_1",
+        "xci_path": "ip\\design_1_traffic_control_0_1\\design_1_traffic_control_0_1.xci",
+        "inst_hier_path": "traffic_control_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "traffic_control",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "n_lights": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "s_lights": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "e_lights": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "w_lights": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "rst_a": {
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          }
+        }
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0",
+        "xci_path": "ip\\design_1_clk_wiz_0\\design_1_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz",
+        "parameters": {
+          "RESET_BOARD_INTERFACE": {
+            "value": "reset"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "traffic_control_0/clk"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "clk_wiz/reset",
+          "traffic_control_0/rst_a"
+        ]
+      }
+    }
+  }
+}

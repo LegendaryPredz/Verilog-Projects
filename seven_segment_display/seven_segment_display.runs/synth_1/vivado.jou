@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Feb 14 00:02:57 2023
+# Process ID: 16008
+# Current directory: C:/Users/Chick/Vivado_Builds/seven_segment_display/seven_segment_display.runs/synth_1
+# Command line: vivado.exe -log ssd_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ssd_tb.tcl
+# Log file: C:/Users/Chick/Vivado_Builds/seven_segment_display/seven_segment_display.runs/synth_1/ssd_tb.vds
+# Journal file: C:/Users/Chick/Vivado_Builds/seven_segment_display/seven_segment_display.runs/synth_1\vivado.jou
+# Running On: OrionsPC, OS: Windows, CPU Frequency: 3394 MHz, CPU Physical cores: 16, Host memory: 68662 MB
+#-----------------------------------------------------------
+source ssd_tb.tcl -notrace
